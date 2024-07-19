@@ -1,0 +1,37 @@
+# base configuration
+train_path: 'ADNI_1year_train'
+eval_path: 'ADNI_1year_test'
+table_path: 'ct_2&5_1year.csv'
+train_bc: 2
+eval_bc: 2
+img_sz: [160, 160, 96]
+num_epochs: 200
+days_threshold: -1
+
+
+# train process configuration
+val_inter: 1
+save_inter: 5
+
+resume_path: 'pytorch3dunet/pretrained/r3d101_KM_200ep.pth'
+
+# accelerate config
+split_batches: False
+mixed_precision: 'fp16'
+log_with: 'tensorboard'
+project_dir: 'weights/classifier'
+gradient_accumulation_steps: 1
+
+# classifier config
+latent_dim: 16
+f_maps: [64, 128, 256]
+seq_length: 4
+
+# ft_trans config
+dim: 512
+dim_out: 1
+depth: 6
+heads: 8
+attn_dropout: 0.1
+ff_dropout: 0.1
+
