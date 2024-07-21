@@ -13,7 +13,7 @@ Filter paired pretrained MRI-PET data using
 ```
 pretrain_MRI-PET\find_mri-pet.py
 ```
-then save the data into the ADNI web folder using 
+Then save the data into the ADNI web folder using 
 ```
 pretrain_MRI-PET\get_mri-pet.py
 ```
