@@ -2,11 +2,11 @@
 
 ## **1. SAVING DATA WITH `get_all_sample`**
 
-Save all data from the table into the ADNI folder for subsequent operations using `get_all_sample`.
+Save all data from the table into the ADNI folder for subsequent operations using `get_all_sample\get_all.py`.
 
 ## **2. FILTERING AND SAVING PAIRED PRETRAINED MRI-PET DATA**
 
-Filter paired pretrained MRI-PET data using `find_mri-pet.py` in `pretrain_MRI-PET`, then save the data into the ADNI web folder using `get_mri-pet.py`.
+Filter paired pretrained MRI-PET data using `pretrain_MRI-PET\find_mri-pet.py` in `pretrain_MRI-PET\pretrain_MRI-PET`, then save the data into the ADNI web folder using `pretrain_MRI-PET\get_mri-pet.py`.
 
 ## **3. FILTERING AND SAVING TRAINING DATA**
 
