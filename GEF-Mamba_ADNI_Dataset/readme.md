@@ -1,6 +1,6 @@
 # **Dataset Acquisition**
 
-## **1. Saving Data with `get_all_sample`**
+## **1. Saving Data in 'TADPOLE_D1_D2.csv'`**
 
 Save all data from the table into the ADNI folder for subsequent operations using 
 ```
