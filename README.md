@@ -37,8 +37,10 @@ This code is the pytorch implementation of the **GFE-Mamba** which has been acce
 
 ## How to train
 ### Preparation of the data
-Because of ADNI's confidentiality policy, we are unable to directly publicize the acquired datasets here. However, we have provided detailed instructions on how to obtain the data, which can be found in 'GEF-Mamba_ADNI_Dataset\readme.md'.
-
+Because of ADNI's confidentiality policy, we are unable to directly publicize the acquired datasets here. However, we have provided detailed instructions on how to obtain the data, which can be found in 
+```
+GEF-Mamba_ADNI_Dataset\readme.md
+```
 ### MRI to PET Generation training 
 First, accordding to the dataloader, the MRI and PET should both be "nii.gz" files and should be put into one subdirectory. Then MRI and PET should be named as "MRI.nii.gz", "PET.nii.gz", repectively. 
 ```
