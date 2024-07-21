@@ -50,4 +50,4 @@ dcm2nii\2nii.py
 
 1. You need to fill in your ADNI account and password when using the script.
 2. If the program cannot run normally due to network issues, you need to manually select the ADNI dataset web page and folder.
-3. You can get 'TADPOLE_D1_D2.csv' from 'https://drive.google.com/file/d/1K6d0bv-A6Fzoqz9LfECM81MJTYIpKbGV/view?usp=sharing'
+3. You can get 'TADPOLE_D1_D2.csv' from 'https://drive.google.com/file/d/1K6d0bv-A6Fzoqz9LfECM81MJTYIpKbGV/view?usp=sharing' then put the csv file into 'get_all_sample' and 'train_data'.
