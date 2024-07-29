@@ -79,6 +79,12 @@ python test_mamba.py
 ```
 ## Citation
 ```
+@article{fang2024gfe,
+  title={GFE-Mamba: Mamba-based AD Multi-modal Progression Assessment via Generative Feature Extraction from MCI},
+  author={Fang, Zhaojie and Zhu, Shenghao and Chen, Yifei and Zou, Binfeng and Jia, Fan and Qiu, Linwei and Liu, Chang and Huang, Yiyu and Feng, Xiang and Qin, Feiwei and others},
+  journal={arXiv preprint arXiv:2407.15719},
+  year={2024}
+}
 ```
 
 
