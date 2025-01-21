@@ -17,22 +17,8 @@ Then save the data into the ADNI web folder using
 ```
 pretrain_MRI-PET\get_mri-pet.py
 ```
- 
-## **3. Filtering and Saving Training Data**
 
-Filter the required training data tables using 
-```
-train_data\filt&copy_MCI2AD.py
-```
-```
-train_data\filt&copy_neg.py
-```
-Read the data tables and save the 1-year dataset and 3-year dataset into the ADNI folder using 
-```
-train_data\dir_find.py
-```
-
-## **4. Processing and Converting Dataset Format**
+## **3. Processing and Converting Dataset Format**
 
 Download the ADNI website folder locally, process the original folder format using 
 ```
@@ -44,6 +30,20 @@ dcm2nii\2txt.py
 ```
 ```
 dcm2nii\2nii.py
+```
+
+## **4. Filtering and Saving Training Data**
+
+Filter the required training data tables using 
+```
+train_data\filt&copy_MCI2AD.py
+```
+```
+train_data\filt&copy_neg.py
+```
+Read the data tables and save the 1-year dataset and 3-year dataset into the ADNI folder using 
+```
+train_data\dir_find.py
 ```
 
 ## **Notes**
