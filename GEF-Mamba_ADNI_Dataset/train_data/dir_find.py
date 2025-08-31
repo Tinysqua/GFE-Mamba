@@ -20,10 +20,10 @@ def logging(driver):
     log.click()
 
     email_input = driver.find_element(By.CSS_SELECTOR, '.ida-menu-email-container > input:nth-child(2)')
-    email_input.send_keys('21321306@hdu.edu.cn')
+    email_input.send_keys('your_id')
 
     password_input = driver.find_element(By.CSS_SELECTOR, '.ida-menu-password-container > input:nth-child(3)')
-    password_input.send_keys('@CHh20022001CYFZYF')
+    password_input.send_keys('your_passwd')
 
     logging = driver.find_element(By.CSS_SELECTOR, '.login-btn > span:nth-child(2)')
     logging.click()
@@ -174,3 +174,4 @@ while True:
     except Exception as e:
         start = start + last
         print('在第' + str(start) + '次运行中程序因为' + str(e) + '终断，继续执行')
+
